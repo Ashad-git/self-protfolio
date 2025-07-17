@@ -7,8 +7,8 @@ const Navbar = () => {
     const navLinks = ["Home", "Above", "Projects", "Contact"];
 
     return (
-        <nav className="w-full fixed top-0 left-0 z-50 bg-white dark:bg-gray-900 shadow">
-            <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+        <nav className="w-full fixed top-0 left-0 z-50 bg-white dark:bg-gray-900 shadow ">
+            <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center bg-gray-700 mt-5 rounded-full">
                 {/*Logo / Brand */}
                 <div className="text-2xl font-bold text-gray-800 dark:text-white">
                     Ashad.Dev
