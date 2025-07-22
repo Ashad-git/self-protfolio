@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp, FaTelegram } from "react-icons/fa";
 
 export default function Hero(){
   const typedRef = useRef(null);
@@ -42,6 +42,10 @@ export default function Hero(){
             
             <a href="#" target="_blank" className="inline-flex items-center justify-center w-15 h-15 bg-white rounded-full text-gray-800 hover:bg-gradient-to-r from-green-400 to-green-600 hover:-translate-y-1 transition-transform duration-300 hover:shadow-lg">
                  <FaWhatsapp className="text-3xl" />
+            </a>
+
+            <a href="#" target="_blank" className="inline-flex items-center justify-center w-15 h-15 bg-white rounded-full text-gray-800 hover:bg-gradient-to-r from-blue-400 to-blue-700 hover:-translate-y-1 transition-transform duration-300 hover:shadow-lg">
+                 <FaTelegram className="text-3xl" />
             </a>
           </div>
 

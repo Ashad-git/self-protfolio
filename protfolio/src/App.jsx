@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import About from "./components/About"
+import SkillsSection from "./components/Skills"
+import CertificatesSection from "./components/CertificatesSection"
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <SkillsSection />
+        <CertificatesSection />
         <section id="home" className="h-screen flex justify-center items-center">
           <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
         </section>

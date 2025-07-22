@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
     
     return (
-        <section id="about" className="bg-gray-300 py-20 px-6 md:px-20">
+        <section id="about" className="bg-gray-100 py-20 px-6 md:px-20">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-start">
                 {/**Left section  */}
                 <div className="md:w-1/2">
@@ -25,11 +25,9 @@ const About = () => {
 
                 {/**Right section */}
                 <div className="md:w-1/2">
-                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Skills</h3>
-                    <div className="flex flex-wrap gap-3">
-                        {["HTML5", "CSS3", "JavaScript", "React", "Tailwind Css", "Bootstrap", "Git", "Responsive Design", "Photoshop", "Canva"].map((skill, index) => (
-                            <span key={index} className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium shadow-sm hover:bg-white"> {skill} </span>
-                        ))}
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-4 flex justify-center">Skills</h3>
+                    <div className="felx-1 flex justify-center">
+                        <img src="public/logo.png" alt="Ashad Ahmad" className="w-60 h-60 md:w-80 md:h-80 object-cover rounded-full shadow-xl" />
                     </div>
                 </div>
 
