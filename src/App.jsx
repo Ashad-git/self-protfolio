@@ -3,7 +3,8 @@ import Hero from "./components/Hero"
 import About from "./components/About"
 import SkillsSection from "./components/Skills"
 import CertificatesSection from "./components/CertificatesSection"
-import Projects from "./components/Projects"
+import Projects from "./components/Projects"  
+import ContactSection from "./components/Contact"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <SkillsSection />
         <CertificatesSection />
         <Projects />
+        <ContactSection />
         <section id="home" className="h-screen flex justify-center items-center">
           <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
         </section>
