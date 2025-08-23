@@ -25,9 +25,9 @@ const About = () => {
 
                 {/**Right section */}
                 <div className="md:w-1/2">
-                    <h3 className="text-2xl font-semibold text-gray-800 mb-4 flex justify-center">Skills</h3>
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-4 flex justify-center"></h3>
                     <div className="felx-1 flex justify-center">
-                        <img src="public/logo.png" alt="Ashad Ahmad" className="w-60 h-60 md:w-80 md:h-80 object-cover rounded-full shadow-xl" />
+                        <img src="public/logo.png" alt="logo" className="w-60 h-60 md:w-80 md:h-80 object-cover rounded-full shadow-xl" />
                     </div>
                 </div>
 

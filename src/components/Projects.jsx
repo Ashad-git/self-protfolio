@@ -1,6 +1,7 @@
 // components/Projects.jsx
 import { useState } from 'react';
 import { FaGithub, FaExternalLinkAlt, FaFilter } from 'react-icons/fa';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 
 const projects = [
@@ -65,7 +66,7 @@ export default function Projects() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-700">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 py-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-700">
             My Projects
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -168,7 +169,7 @@ export default function Projects() {
                 <div className="text-white">
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <a
-                    href={project.demo}
+                    href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-white text-gray-900 px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors"
