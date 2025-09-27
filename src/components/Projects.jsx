@@ -66,7 +66,7 @@ export default function Projects() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 py-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-700">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 py-2 text-gray-800">
             My Projects
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">

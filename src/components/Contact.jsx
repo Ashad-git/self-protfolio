@@ -29,7 +29,7 @@ export default function ContactSection() {
 
   return (
     <section id="contact" className="py-16 px-6 bg-gray-100 dark:bg-gray-900">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
         
         {/* Left Side */}
         <div>
@@ -42,14 +42,11 @@ export default function ContactSection() {
           </p>
           
           <div className="flex gap-4">
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="text-2xl text-gray-700 dark:text-gray-300 hover:text-blue-500">
+            <a href="https://github.com/Ashad-git" target="_blank" rel="noreferrer" className="text-2xl text-gray-700 dark:text-gray-300 hover:text-blue-500">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer" className="text-2xl text-gray-700 dark:text-gray-300 hover:text-blue-500">
+            <a href="https://www.linkedin.com/in/ashad-ahmad-84035526a/" target="_blank" rel="noreferrer" className="text-2xl text-gray-700 dark:text-gray-300 hover:text-blue-500">
               <FaLinkedin />
-            </a>
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noreferrer" className="text-2xl text-gray-700 dark:text-gray-300 hover:text-blue-500">
-              <FaTwitter />
             </a>
           </div>
         </div>
@@ -65,21 +62,21 @@ export default function ContactSection() {
             name="user_name"
             placeholder="Your Name"
             required
-            className="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-md border text-white border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <input
             type="email"
             name="user_email"
             placeholder="Your Email"
             required
-            className="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-md border text-white border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <textarea
             name="message"
             rows="4"
             placeholder="Your Message"
             required
-            className="w-full p-3 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-md border text-white border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
           ></textarea>
           <button
             type="submit"

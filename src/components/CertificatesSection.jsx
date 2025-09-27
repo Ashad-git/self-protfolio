@@ -2,36 +2,29 @@ import React from 'react';
 
 const certificates = [
   {
-    title: "HTML Programming",
-    issuer: "Duke University",
+    title: "Designing Web Pages Using HTML and CSS",
+    issuer: "Internshala",
     image: "public/certificates/Html.png",
-    link: "https://lnkd.in/gCaTprSv",
+    link: "https://trainings.internshala.com/view_certificate/23svh54zhg2/gb4l9umfh71/",
   },
   {
-    title: "Programming With Python",
-    issuer: "University of Michigan",
-    image: "/certificates/python.png",
-    link: "https://coursera.org/share/your-java-certificate-link",
+    title: "Git and GitHub: Mastering Version Control",
+    issuer: "Internshala",
+    image: "public/certificates/GitHub.png",
+    link: "https://trainings.internshala.com/view_certificate/2304j9fs6vj/d5tuccduaem/",
   },
   {
-    title: "HTML, CSS and JavaScript",
-    issuer: "Duke University",
-    image: "/certificates/htmlcssjs.png",
-    link: "https://coursera.org/share/your-java-certificate-link",
+    title: "Developing Interactive Website with Javascript",
+    issuer: "Internshala",
+    image: "public/certificates/Javascript.png",
+    link: "https://trainings.internshala.com/view_certificate/j5l5co1jtk4/3fcri0qfr6b/",
   },
   {
     title: "React Frontend Development",
-    issuer: "Coursera",
-    image: "/certificates/react.png",
-    link: "https://coursera.org/share/your-java-certificate-link",
+    issuer: "Internshala",
+    image: "public/certificates/React.png",
+    link: "https://trainings.internshala.com/view_certificate/bk0nglkv8az/agelp55k29a/",
   },
-  {
-    title: "Backend with Node.js",
-    issuer: "Meta",
-    image: "/certificates/node.png",
-    link: "https://coursera.org/share/your-java-certificate-link",
-  },
-  
 ];
 
 export default function CertificatesSection() {

@@ -4,7 +4,7 @@ import ThemeToggle from "./ThemeToggle";
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-    const navLinks = ["Home", "Above", "Projects", "Contact"];
+    const navLinks = ["Home", "About", "Projects", "Contact"];
 
     return (
         <nav className="w-full fixed top-0 left-0 z-50  ">
@@ -15,7 +15,7 @@ const Navbar = () => {
                 </div>
                 {/**Desktop Menu */}
                 <ul className="hidden md:flex space-x-8 text-gray-700 dark:text-gray-300">
-                    {navLinks.map((link) => (
+                    {navLinks.map((link) => (   
                         <li key={link}>
                             <a href={`#${link.toLocaleLowerCase()}`} className="hover:text-blue-500 transition">
                                 {link}
@@ -25,7 +25,11 @@ const Navbar = () => {
                 </ul>
                 {/**right side Theme Button */}
                 <div className="hidden md:flex items-center space-x-4">
-                    <ThemeToggle />
+
+
+                    {/* <ThemeToggle /> */}
+
+
                     <a href="#contact" className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition">
                         Contact Me
                     </a>
@@ -45,7 +49,11 @@ const Navbar = () => {
                         </a>
                     ))}
                     <div className="pt-2 flex items-center justify-between">
-                        <ThemeToggle />
+
+
+                        {/* <ThemeToggle /> */}
+
+                        
                         <a href="#contact" className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition">
                             Contact Me
                         </a>
