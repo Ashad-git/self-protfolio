@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center bg-gray-700 mt-5 rounded-full">
                 {/*Logo / Brand */}
                 <div className="text-2xl font-bold text-gray-800 dark:text-white">
-                    Ashad.Dev
+                    <img src="public/logo.png" alt="Ashad Ahmad" className="w-10 h-10 object-cover rounded-full shadow-xl" />
                 </div>
                 {/**Desktop Menu */}
                 <ul className="hidden md:flex space-x-8 text-gray-700 dark:text-gray-300">

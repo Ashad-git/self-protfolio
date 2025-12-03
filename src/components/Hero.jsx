@@ -64,7 +64,7 @@ export default function Hero(){
           {/**right image */}
         </div>
           <div className="felx-1 flex justify-center">
-            <img src="public/logo.png" alt="Ashad Ahmad" className="w-60 h-60 md:w-80 md:h-80 object-cover rounded-full shadow-xl" />
+            <img src="public/Profile2.png" alt="Ashad Ahmad" className="w-100 h-100 md:w-100 md:h-100 object-cover shadow-xl" />
           </div>
       </div>
     </section>
