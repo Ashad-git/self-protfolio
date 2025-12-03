@@ -17,7 +17,7 @@ const Navbar = () => {
                 <ul className="hidden md:flex space-x-8 text-gray-700 dark:text-gray-300">
                     {navLinks.map((link) => (   
                         <li key={link}>
-                            <a href={`#${link.toLocaleLowerCase()}`} className="hover:text-blue-500 transition">
+                            <a href={`#${link.toLocaleLowerCase()}`} className="hover:text-teal-300 hover:drop-shadow-[0_0_10px_rgba(45,212,191,0.8)] transition-colors duration-300 font-bold">
                                 {link}
                             </a>
                         </li>
@@ -28,9 +28,7 @@ const Navbar = () => {
 
 
                     {/* <ThemeToggle /> */}
-
-
-                    <a href="#contact" className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition">
+                    <a href="#contact" className="bg-teal-500 text-white px-4 py-2 rounded-full hover:bg-teal-600 transition">
                         Contact Me
                     </a>
                 </div>
