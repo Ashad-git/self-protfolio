@@ -17,7 +17,7 @@ const Navbar = () => {
                 <ul className="hidden md:flex space-x-8 text-gray-700 dark:text-gray-300">
                     {navLinks.map((link) => (   
                         <li key={link}>
-                            <a href={`#${link.toLocaleLowerCase()}`} className="hover:text-teal-300 hover:drop-shadow-[0_0_10px_rgba(45,212,191,0.8)] transition-colors duration-300 font-bold">
+                            <a href={`#${link.toLocaleLowerCase()}`} className="text-teal-300 hover:drop-shadow-[0_0_10px_rgba(45,212,191,0.8)] transition-colors duration-300 font-bold">
                                 {link}
                             </a>
                         </li>
